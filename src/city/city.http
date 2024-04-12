@@ -1,0 +1,11 @@
+### get all
+GET http://localhost:3000/cities
+
+### POST
+POST http://localhost:3000/cities
+Content-Type: application/json
+
+{
+    "name": "São Paulo3",
+    "country": 88
+}

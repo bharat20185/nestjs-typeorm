@@ -1,0 +1,14 @@
+### create actor
+POST http://localhost:3000/actors
+Content-Type: application/json
+
+{
+    "firstName": "Bharat2",
+    "lastName": "Patel"
+}
+
+### find all
+GET http://localhost:3000/actors
+
+### find by id
+GET http://localhost:3000/actors/201
